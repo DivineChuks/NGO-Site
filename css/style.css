@@ -140,32 +140,32 @@ body{
     color: #fff;
     background-color: #025074;
     border-radius: 1rem; 
-    padding: 10px;
-    margin-right: 15px;  
+    /* padding: 10px;
+    margin-right: 15px;   */
 }
 .ourWork .work2{
     margin-top: 180px;
     color: #fff;
     background-color: #1e272e;
     border-radius: 1rem; 
-    padding: 10px;
-    margin-right: 15px;  
+    /* padding: 10px;
+    margin-right: 15px;   */
 }
 .ourWork .work3{
     margin-top: 180px;
     color: #fff;
     background-color: #ff5e57;
     border-radius: 1rem; 
-    padding: 10px;
-    margin-right: 15px;  
+    /* padding: 10px;
+    margin-right: 15px;   */
 }
 .ourWork .work4{
     margin-top: 180px;
     color: #fff;
     background-color: #ffffff;
     border-radius: 1rem; 
-    padding: 10px;
-    margin-right: 15px;  
+    /* padding: 10px;
+    margin-right: 15px;   */
 }
 
 /* Our Work Section End */
@@ -194,6 +194,26 @@ body{
 
 #event-section i{
     color: #025074;
+}
+
+.aboutUs{
+    background: url(../images/image6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 150px;
+}
+.aboutUs .overlay{
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 150px;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.aboutUs h2{
+    margin-top: 6px;
 }
 
 
@@ -235,30 +255,30 @@ body{
 @media (max-width: 767px) {
 
     .bg-custom{
-        background-color: rgba(0,0,0,0.3);
+        background-color: rgba(0,0,0,0.5);
         border-radius: 1rem;
         padding: 50px;
     }
 
     .carousel-inner{
-        max-height: 40rem !important;
+        max-height: 28rem !important;
     
     }
 
     .carousel-caption{
         position: absolute;
-        top: 35%;
+        top: 33%;
         transform: translateY(-50%);
         text-transform: uppercase;
     }
     
-    .carousel-caption h1{
-        font-size: 25px;
+    .carousel-caption h2{
+        font-size: 18px;
         text-shadow: 0 1rem 1rem 1rem rgba(0,0,0,0.3); ;
     }
     
     .carousel-caption h3{
-        font-size: 20px;
+        font-size: 15px;
         text-transform: capitalize;
     }
     #child-section h2{
@@ -331,7 +351,8 @@ body{
     }
 
     .ourWork img{
-        width: 100px;
+        width: 80px;
+        margin: 15px;
 
     }
     .ourWork h2{
@@ -345,5 +366,10 @@ body{
     .ourWork p{
         font-size: 13px;
 
+    }
+
+    .help{
+        display: flex;
+        flex-flow: column-reverse;
     }
     }
