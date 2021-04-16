@@ -1,0 +1,349 @@
+/* Body */
+
+body{
+    overflow-x: hidden;
+    font-family: 'montserat', sans-serif;
+}
+
+/* Navigation Start */
+
+.navbar{
+    box-shadow: 0 0.5rem 0.5rem rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.btn-danger{
+    border: 1px solid red;
+    border-radius: 8px !important;
+    padding: 5px 20px !important;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+/* Navigation Start */
+
+
+/* Carousel Start */
+
+#carousel{
+    box-shadow: 0 1rem 1rem 1rem rgba(0,0,0,0.1);
+}
+
+.carousel-inner{
+    max-height: 38rem !important;
+
+}
+
+.carousel-caption{
+    position: absolute;
+    top: 45%;
+    transform: translateY(-50%);
+    text-transform: uppercase;
+}
+
+.carousel-caption h1{
+    font-size: 30px;
+    text-shadow: 0 1rem 1rem 1rem rgba(0,0,0,0.3); ;
+}
+
+.carousel-caption h3{
+    font-size: 25px;
+    text-transform: capitalize;
+}
+
+.bg-custom{
+    background-color: rgba(0,0,0,0.3);
+    border-radius: 1rem;
+}
+
+#btnLearn{
+    background-color: #000000 !important;
+    border: 1px solid #000000 !important ;
+    border-radius: 15px !important;
+    padding: 5px 25px !important;
+    font-size: 18px !important;
+    text-transform: uppercase;
+}
+
+/* Carousel End */
+
+/* SSEID Section start */
+
+.fixed-section{
+    background: url(../images/group.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 700px;
+}
+
+.fixed-section h3{
+    margin-top: 200px;
+    text-shadow: 0 0.1rem 0.1rem rgba(0,0,0,0.2);
+}
+
+
+#btnSSEID{
+    background-color: #025074 !important;
+    border: 1px solid #025074;
+    border-radius: 15px !important;
+    padding: 5px 25px !important;
+    font-size: 18px !important;
+    text-transform: uppercase;
+}
+
+.cover{
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 700px;
+    background: rgba(0,0,0,0.5)
+}
+
+
+/* SSEID Section End */
+
+/* Future Section Start */
+
+#btnfuture{
+    border-radius: 8px !important;
+    padding: 5px 15px !important;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+/* Future Section End */
+*/
+
+
+/* Volunteer Section Start */
+
+#topBorder{
+    border-top: 2px solid grey !important;
+}
+
+/* Volunteer Section End */
+
+
+/* Our Work Section Start */
+.ourWork{
+    background: url(../images/image6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.ourWork .work1{
+    margin-top: 180px;
+    color: #fff;
+    background-color: #025074;
+    border-radius: 1rem; 
+    padding: 10px;
+    margin-right: 15px;  
+}
+.ourWork .work2{
+    margin-top: 180px;
+    color: #fff;
+    background-color: #1e272e;
+    border-radius: 1rem; 
+    padding: 10px;
+    margin-right: 15px;  
+}
+.ourWork .work3{
+    margin-top: 180px;
+    color: #fff;
+    background-color: #ff5e57;
+    border-radius: 1rem; 
+    padding: 10px;
+    margin-right: 15px;  
+}
+.ourWork .work4{
+    margin-top: 180px;
+    color: #fff;
+    background-color: #ffffff;
+    border-radius: 1rem; 
+    padding: 10px;
+    margin-right: 15px;  
+}
+
+/* Our Work Section End */
+
+/* Testimonial Section Start */
+
+.testimonial{
+    background: url(../images/partner.jpg);
+    min-height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.testimonial .overlay{
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 300px;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+/* Testimonial Section ends */
+
+/* Event section */
+
+#event-section i{
+    color: #025074;
+}
+
+
+/* Footer Section start */
+
+#btnTrain{
+    background-color: #025074 !important;
+    border: 1px solid #025074 !important ;
+    border-radius: 15px !important;
+    padding: 5px 15px !important;
+    font-size: 18px !important;
+    text-transform: uppercase;
+}
+
+.main-footer a{
+    color: white;
+}
+
+.main-footer p{
+    padding: 5px;
+}
+
+.botttomfooter{
+    background-color: #1e272e;
+}
+ 
+.slick-slide {
+    margin: 10px
+} 
+
+.slick-slide img {
+    width: 100%;
+} 
+
+/* Footer Section ends */
+
+/* Media Queries */
+
+@media (max-width: 767px) {
+
+    .bg-custom{
+        background-color: rgba(0,0,0,0.3);
+        border-radius: 1rem;
+        padding: 50px;
+    }
+
+    .carousel-inner{
+        max-height: 40rem !important;
+    
+    }
+
+    .carousel-caption{
+        position: absolute;
+        top: 35%;
+        transform: translateY(-50%);
+        text-transform: uppercase;
+    }
+    
+    .carousel-caption h1{
+        font-size: 25px;
+        text-shadow: 0 1rem 1rem 1rem rgba(0,0,0,0.3); ;
+    }
+    
+    .carousel-caption h3{
+        font-size: 20px;
+        text-transform: capitalize;
+    }
+    #child-section h2{
+        font-size: 25px;
+    }
+
+    #child-section img{
+        padding: 10px;
+    }
+
+    #child-section .child-desc{
+        padding: 10px;
+    }
+    .fixed-section h3{
+        font-size: 20px;
+    }
+    .future h2{
+        font-size: 25px;
+    }
+    .future .future-desc{
+        padding: 10px;
+    }
+    .btn-danger{
+        border: 1px solid red;
+        border-radius: 8px !important;
+        padding: 3px 15px !important;
+        font-size: 16px;
+        text-transform: uppercase;
+    }
+    #btnTrain{
+        background-color: #025074 !important;
+        border: 1px solid #025074 !important ;
+        border-radius: 15px !important;
+        padding: 3px 15px !important;
+        font-size: 16px !important;
+        text-transform: uppercase;
+    }
+    #btnfuture{
+        border-radius: 8px !important;
+        padding: 3px 15px !important;
+        font-size: 16px;
+        text-transform: capitalize;
+    }
+    #btnSSEID{
+        background-color: #025074 !important;
+        border: 1px solid #025074;
+        border-radius: 15px !important;
+        padding: 3px 15px !important;
+        font-size: 16px !important;
+        text-transform: uppercase;
+    }
+
+    #volimg{
+        width: 400px;
+    }
+
+    #event-section h2{
+        font-size: 25px;
+    }
+
+    .volunteer h2{
+        font-size: 25px;
+    }
+
+    .testimonial h2{
+        font-size: 25px;
+    }
+    .testimonial p{
+       padding: 10px;
+    }
+
+    .ourWork img{
+        width: 100px;
+
+    }
+    .ourWork h2{
+        font-size: 25px;
+
+    }
+    .ourWork h5{
+        font-size: 15px;
+
+    }
+    .ourWork p{
+        font-size: 13px;
+
+    }
+    }
